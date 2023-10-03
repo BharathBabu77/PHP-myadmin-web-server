@@ -59,7 +59,7 @@ sudo service httpd restart  # for Amazon Linux
 
 Open a web browser and navigate to your EC2 instance's public IP or domain name followed by /phpmyadmin:
 
-http://YourEC2PublicIP/phpmyadmin
+http://EC2PublicIP/phpmyadmin
 
 **Step 8: Log in to phpMyAdmin**
 
