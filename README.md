@@ -11,7 +11,7 @@ Launch the instance, selecting or creating a key pair for SSH access.
 
 Use SSH to connect to your EC2 instance using the key pair:
 
-ssh -i YourKeyPair.pem ec2-user@YourEC2PublicIP
+ssh -i KeyPair.pem ec2-user@EC2PublicIP
 
 **Step 3: Update and Install LAMP Stack**
 
@@ -20,6 +20,7 @@ arduino
 
 sudo yum update -y  # for Amazon Linux
 sudo apt update && sudo apt upgrade -y  # for Ubuntu
+
 Install the LAMP stack components (Linux, Apache, MySQL, PHP) on your EC2 instance:
 
 sudo yum install httpd mysql-server php php-mysql -y  # for Amazon Linux
